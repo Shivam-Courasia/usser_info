@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-selector">
+        <button>Light Mode</button>
+<button>Dark Mode</button>
+
+    </div>
+    <div class="card">
+        <h1>User Information</h1>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="phone" placeholder="Enter your phone number" required>
+            <input type="text" id="village" placeholder="Enter your village" required>
+            <input type="text" id="city" placeholder="Enter your city" required>
+            <button type="submit">Save</button>
+        </form>
+        <div id="userInfoDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
